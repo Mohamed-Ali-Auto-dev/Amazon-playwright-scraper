@@ -1,0 +1,16 @@
+{
+  "name": "amazon-playwright-scraper",
+  "version": "1.0.0",
+  "description": "Amazon Egypt scraper built with Playwright. Extracts product information and exports data to JSON and Excel.",
+  "main": "src/Amazon_scraper.mjs",
+  "scripts": {
+  "start": "node src/Amazon_scraper.mjs"
+  },
+  "keywords": [],
+  "author": "Mohamed Ali",
+  "license": "ISC",
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "playwright": "^1.61.0"
+  }
+}
