@@ -157,9 +157,6 @@ async function scrapeCurrentPage(page) {
         }).filter(el => el !== null);
         
     });
-    pageItems.forEach((item,index) => {
-    console.log(`item ${index+1} scraped`);
-    });
     return pageItems;
 }
 async function navigateToNextPage(page) {
